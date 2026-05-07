@@ -1,12 +1,12 @@
 import CompoB from "./Component-B"
 
-const CompoC = ({userC}) => {
+const CompoC = ({name}) => {
 
     return (
 
         <div>
-            <h2> teesra Component C</h2>
-            <CompoB userB={userC}/>
+            <h2>Component C: Grand Parent</h2>
+            <CompoB name={name}/>
         </div>
     )
 }

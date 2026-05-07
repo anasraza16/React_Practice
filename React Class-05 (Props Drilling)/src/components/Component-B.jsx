@@ -1,11 +1,11 @@
 import CompoA from "./Component-A"
 
-const CompoB = ({userB}) => {
+const CompoB = ({name}) => {
 
     return (
         <div>
-            <h2>dusra Component B</h2>
-            <CompoA userA={userB}/>
+            <h2>Component B: Parent</h2>
+            <CompoA name={name}/>
         </div>
     )
 }

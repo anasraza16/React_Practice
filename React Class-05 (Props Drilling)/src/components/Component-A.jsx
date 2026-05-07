@@ -1,10 +1,10 @@
 
 
-const CompoA = ({userA}) => {
+const CompoA = ({name}) => {
     return (
         <div>
-            <h2>pehla Component A</h2>
-            <h1>{userA}</h1>
+            <h2>Component A: Child</h2>
+            <h1>{name}</h1>
         </div>
     )
 }
